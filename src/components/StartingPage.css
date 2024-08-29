@@ -1,0 +1,38 @@
+.welcome-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ffffff;
+  }
+  
+  .startlogo {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+  }
+  
+  h1 {
+    font-size: 3rem;
+    color: #d81111;
+    margin-bottom: 20px;
+    font-size: 50px;
+    padding: 20px;
+    font-weight: 500;
+  }
+  
+  .loading-circle {
+    border: 4px solid #de1f02;
+    border-top: 4px solid #ffffff;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 1s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
